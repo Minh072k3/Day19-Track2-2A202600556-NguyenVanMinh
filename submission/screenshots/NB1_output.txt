@@ -1,0 +1,24 @@
+﻿Corpus size: 1000 docs
+First doc:
+{
+  "doc_id": "frontend_074",
+  "topic": "frontend",
+  "title": "Frontend: hß╗ù trß╗ú ngoß║íi tuyß║┐n qua service worker",
+  "text": "Khi triß╗ân khai ß╗ƒ quy m├┤ lß╗¢n, frontend ─æ├▓i hß╗Åi phß║úi hß╗ù trß╗ú ngoß║íi tuyß║┐n qua service worker. C├íc c├┤ng cß╗Ñ phß╗ò biß║┐n gß╗ôm TypeScript, lazy loading, PWA. Kh├íi niß╗çm tß║úi l╞░ß╗¥i v├á trß║íng th├íi l├á nß╗ün tß║úng quan trß╗ìng. B├ái viß║┐t n├áy giß║úi th├¡ch c├ích hß╗ù trß╗ú ngoß║íi tuyß║┐n qua service worker mß╗Öt c├ích thß╗▒c tß║┐, k├¿m v├¡ dß╗Ñ minh hoß║í vß╗¢i TypeScript v├á PWA."
+}
+Vector dim: 384
+First 8 values: [-0.05807715281844139, -0.033943917602300644, -0.020132888108491898, -0.08142343163490295, 0.07334404438734055, 0.028592636808753014, -0.024067655205726624, 0.007102253381162882]
+Indexed: 1000 vectors
+Query: 'cloud computing v├á tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng'
+Top-5:
+  1. [    cloud] score=0.804  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  2. [    cloud] score=0.787  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  3. [    cloud] score=0.775  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  4. [    cloud] score=0.774  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  5. [ data_eng] score=0.763  Data engineering: ph├ón v├╣ng theo ng├áy ─æß╗â tß╗æi ╞░u query
+Query (paraphrase): 'ph╞░╞íng ph├íp tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng hß║í tß║ºng theo l╞░u l╞░ß╗úng ng╞░ß╗¥i d├╣ng'
+  [    cloud] score=0.805  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  [    cloud] score=0.805  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  [    cloud] score=0.803  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  [    cloud] score=0.800  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng
+  [    cloud] score=0.800  ─Éiß╗çn to├ín ─æ├ím m├óy: tß╗▒ ─æß╗Öng mß╗ƒ rß╗Öng theo l╞░u l╞░ß╗úng

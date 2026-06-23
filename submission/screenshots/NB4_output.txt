@@ -1,0 +1,35 @@
+﻿Wrote 3 Parquet sources to D:\PROJECT\VinAi\Day19-Track2-2A202600556-NguyenVanMinh\app\feast_repo\data
+  item_popularity.parquet  9.7 KB
+  query_velocity.parquet  2.3 KB
+  user_profile.parquet  2.8 KB
+STDOUT:
+No project found in the repository. Using project name lab19 defined in feature_store.yaml
+Applying changes for project lab19
+Created project lab19
+Created entity user
+Created entity item
+Created feature view user_profile_features
+Created feature view item_popularity_features
+Created feature view query_velocity_features
+
+Created sqlite table lab19_item_popularity_features
+Created sqlite table lab19_query_velocity_features
+Created sqlite table lab19_user_profile_features
+
+
+Materializing [1m[32m3[0m feature views to [1m[32m2026-06-23 20:05:02+00:00[0m into the [1m[32msqlite[0m online store.
+
+[1m[32muser_profile_features[0m from [1m[32m2026-05-24 20:05:25+00:00[0m to [1m[32m2026-06-23 20:05:02+00:00[0m:
+[1m[32mitem_popularity_features[0m from [1m[32m2026-06-22 20:05:25+00:00[0m to [1m[32m2026-06-23 20:05:02+00:00[0m:
+[1m[32mquery_velocity_features[0m from [1m[32m2026-06-23 19:05:25+00:00[0m to [1m[32m2026-06-23 20:05:02+00:00[0m:
+
+Single lookup: 42.82ms
+{'user_id': 'u_001', 'preferred_language': 'vi', 'topic_affinity': 'cloud', 'reading_speed_wpm': 187, 'queries_last_hour': 11, 'distinct_topics_24h': 4}
+Online lookup latency over 100 calls:
+  P50 = 0.24ms
+  P95 = 0.71ms
+  P99 = 0.75ms
+PASS ΓÇö online lookup P99 < 10ms (0.75ms)
+  user_id           event_timestamp  reading_speed_wpm topic_affinity
+0   u_003 2026-06-23 20:05:02+00:00                201       database
+1   u_002 2026-06-23 19:05:02+00:00                194       security
